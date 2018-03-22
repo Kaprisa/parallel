@@ -17,6 +17,7 @@ public:
     static map<std::string, int> words;
 
     static void read(string const& name, void cb(ifstream& cb));
+    static void write(string const& name, string const& text);
 };
 
 

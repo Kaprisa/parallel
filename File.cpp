@@ -16,3 +16,10 @@ void File::read(string const &name, void cb(ifstream&)) {
         cout << "Не удалось открыть файл " << name << endl;
     }
 }
+
+void File::write(string const &name, string const &text) {
+    ofstream file;
+    file.open (name);
+    file << text;
+    file.close();
+}
