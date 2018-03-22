@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kaprisa/Учеба/parallel/File.cpp
+File.h
+/home/kaprisa/Учеба/parallel/File.h
+
+/home/kaprisa/Учеба/parallel/File.h
+fstream
+-
+iostream
+-
+map
+-
+
+/home/kaprisa/Учеба/parallel/main.cpp
+iostream
+-
+list
+-
+map
+-
+set
+-
+File.h
+/home/kaprisa/Учеба/parallel/File.h
+algorithm
+-
+thread
+-
+future
+-
+
